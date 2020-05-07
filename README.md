@@ -1,4 +1,4 @@
-# React Damage Tracker
+# React Spending Tracker
 
 #### Techs:
 
