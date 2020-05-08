@@ -1,0 +1,31 @@
+{
+  "name": "react-expense-tracker",
+  "version": "1.0.0",
+  "description": "Backend expense tracker",
+  "author": "Samuele Maurizi (https://samuelemaurizi.net)",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelemaurizi/spending-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samuelemaurizi/spending-tracker/issues"
+  },
+  "homepage": "https://github.com/samuelemaurizi/spending-tracker#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "experss": "0.0.1-security",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
