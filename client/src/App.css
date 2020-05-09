@@ -45,6 +45,10 @@ h4 {
   text-transform: uppercase;
 }
 
+.title {
+  margin-top: 2rem;
+}
+
 .inc-exp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
@@ -139,8 +143,8 @@ input[type='number'] {
 }
 
 .btn {
-  color: #fff;
-  background-color: #9c88ff;
+  color: #333;
+  background-color: #e0e043;
   box-shadow: var(--box-shadow);
   border: 0;
   display: block;
@@ -149,4 +153,19 @@ input[type='number'] {
   margin: 1rem 0 2.5rem;
   padding: 1rem;
   cursor: pointer;
+  transform: scale(1);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+  background-color: #f0f046;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transform: scale(0.98);
+}
+
+@media (max-width: 359px) {
+  .title,
+  .container {
+    padding: 0 1.3rem;
+  }
 }

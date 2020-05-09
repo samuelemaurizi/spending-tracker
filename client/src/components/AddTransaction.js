@@ -41,7 +41,7 @@ export const AddTransaction = () => {
         <div className='form-control'>
           <label htmlFor='amount'>
             Amount <br />
-            (negative for expense, positive for income)
+            (add minus sign for expense)
           </label>
           <input
             type='number'

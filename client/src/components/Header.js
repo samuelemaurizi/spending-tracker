@@ -1,5 +1,5 @@
 import React from 'react';
 
 export const Header = () => {
-  return <h2>Spending Tracker</h2>;
+  return <h2 className='title'>Spending Tracker</h2>;
 };
